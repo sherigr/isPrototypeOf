@@ -26,6 +26,6 @@ isPrototypeOf(dog, empty); // function does the same
 Object.prototype.isPrototypeOf(myDog);  // native function returns true
 isPrototypeOf(Object.prototype, myDog); // function does the same
 
-// Make sure that your function will work for any number of prototype links.
+// Function will work for any number of prototype links.
 isPrototypeOf(canine, myDog) // true
 ```
